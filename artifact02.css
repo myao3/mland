@@ -23,10 +23,10 @@ align: center;
 }
 
 #container {
-margin-top:20%;
+margin-top:10%;
 margin-left:20%;
 margin-right:20%;
-margin-bottom:20%;
+margin-bottom:10%;
 }
 
 .row{
@@ -40,7 +40,7 @@ border: 1px solid black;
 width: 10%;
 height: 60px;
 background-color:white;
-
+float:left;
 }
 
 .black{
@@ -48,7 +48,7 @@ border: 1px solid black;
 width: 10%;
 height: 60px;
 background-color:#787878;
-
+float:left;
 }
 
 .clear{
