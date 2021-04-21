@@ -2,13 +2,13 @@ body {
 background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/ac/Pink_sky.jpg");
 }
 #title {
-position:top;
+position:relative;
 top:0px;
 left:0px;
 padding:10px;
 margin:0px;
 width:100%;
-background-color:dfc5de;
+background-color:#dfc5de;
 text-align:center;
 z-index:10;
 font-family: 'RoundStyleBookOblique';
@@ -58,13 +58,11 @@ clear:both;
  
 
 #footer {
-position:bottom;
-top:0px;
-left:0px;
+position:absolute;
 padding:10px;
-margin:0px;
+margin:10px;
 width:100%;
-background-color:dfc5de;
+background-color:#dfc5de;
 text-align:center;
 z-index:10;
 font-family: 'RoundStyleBookOblique';
