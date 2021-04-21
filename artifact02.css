@@ -15,7 +15,7 @@ font-family: 'CommeRegular';
 font-weight: normal;
 font-style: normal;
 font-size:36px;
-font-color: White;
+color: White;
 }
 
 img {
@@ -59,7 +59,17 @@ clear:both;
  
 
 #footer {
-border:solid 1px;
-padding: 10px;
-margin:10px;
-}
+position:fixed;
+top:0px;
+left:0px;
+padding:10px;
+margin:0px;
+width:100%;
+background-color:dfc5de;
+text-align:center;
+z-index:10;
+font-family: 'CommeRegular';
+font-weight: normal;
+font-style: normal;
+font-size:36px;
+color: White;}
