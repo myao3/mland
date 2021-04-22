@@ -25,6 +25,10 @@ width: 60%;
 }
 
 #container {
+margin-top:20%;
+margin-left:10%;
+margin-right:10%;
+margin-bottom:20%;
 justify-content: center;}
 
 .row{
