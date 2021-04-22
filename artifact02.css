@@ -26,9 +26,10 @@ width: 60%;
 
 #container {
 margin-top:20%;
-margin-left:10%;
+margin-left:15%;
 margin-right:10%;
-margin-bottom:20%;}
+margin-bottom:20%;
+}
 
 .row{
 position:relative;
@@ -51,7 +52,7 @@ width: 10%;
 height: 60px;
 background-color:#787878;
 float:left;
-text-align:center
+text-align:center;
 }
 
 .clear{
