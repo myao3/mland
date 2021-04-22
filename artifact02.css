@@ -25,9 +25,9 @@ width: 60%;
 }
 
 #container {
-width:640px;
-height:640px;
-marigin: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 40%;;
 }
 
 .row{
