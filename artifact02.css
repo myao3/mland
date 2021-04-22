@@ -42,7 +42,7 @@ width: 10%;
 height: 60px;;
 background-color:white;
 float:left;
-
+text-align:center;
 }
 
 .black{
@@ -51,7 +51,7 @@ width: 10%;
 height: 60px;
 background-color:#787878;
 float:left;
-
+text-align:center
 }
 
 .clear{
