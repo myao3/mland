@@ -1,5 +1,5 @@
 body {
-background-image:url("https://pbblogassets.s3.amazonaws.com/uploads/2018/10/22074923/pink-sky-cover.jpg");
+background-image:url("https://img.freepik.com/free-photo/sunset-pink-sky-with-clouds_159938-2925.jpg?size=626&ext=jpg&ga=GA1.1.2034070519.1618272000");
 }
 #title {
 position:relative;
@@ -28,7 +28,7 @@ width: 60%;
 margin-top:20%;
 margin-left:10%;
 margin-right:10%;
-margin-bottom:5%;;
+margin-bottom:20%;;
 }
 
 .row{
@@ -62,11 +62,9 @@ vertical-align: middle
 .clear{
 clear:both;
 }
-
  
 
 #footer {
-
 padding:10px;
 margin:0px;
 width:100%;
