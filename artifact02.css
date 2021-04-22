@@ -42,6 +42,9 @@ width: 10%;
 height: 60px;
 background-color:white;
 float:left;
+text-align: center;
+display: table-cell;
+vertical-align: middle
 }
 
 .black{
@@ -50,6 +53,9 @@ width: 10%;
 height: 60px;
 background-color:#787878;
 float:left;
+text-align: center;
+display: table-cell;
+vertical-align: middle
 }
 
 .clear{
