@@ -25,8 +25,8 @@ width: 60%;
 }
 
 #container {
-margin:20% auto 20% auto;
-}
+margin:20%;
+justify-content: center;}
 
 .row{
 position:relative;
