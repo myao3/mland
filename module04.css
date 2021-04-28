@@ -1,21 +1,22 @@
            
-			body {
-				width: 90%;
-				margin: 0 auto;
-                background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Violet-watercolor-flower-wallpapers-download-large-screen.jpg");
-                background-size:150%;
-                font-family: Arial, Verdana, sans-serif;
-                Color:purple;
-				text-align: center;
-                  }
-            #header{
+body {
+	width: 90%;
+	margin: 0 auto;
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Violet-watercolor-flower-wallpapers-download-large-screen.jpg");
+        background-size:150%;
+        font-family: Arial, Verdana, sans-serif;
+        Color:purple;
+	text-align: center;
+       }
+         #header{
                font-family: 'SztyletBold';
                font-weight: bold;
                font-style: normal;
-
-                    }
-			#content {
-				overflow: auto;}
+	       font-size: 200%;
+                 }
+	#content {
+	overflow: auto;
+		}
             #nav {
                 margin: 1%;
                 background-color:#D2691E;
