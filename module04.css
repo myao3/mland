@@ -5,7 +5,7 @@
         	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Violet-watercolor-flower-wallpapers-download-large-screen.jpg");
        	 	background-size:100%;
         	font-family: Arial, Verdana, sans-serif;
-       	 	Color:purple;
+       	 	Color:white;
 		text-align: center;
      		}
          #header{
@@ -50,7 +50,7 @@
                        }
 	     .column2{
 		width: 31.3%;
-		float: center;
+		float: left;
 		margin: 1%;
                 Background-color:#FFE4C4;
                 margin-right: 0%;
@@ -58,7 +58,7 @@
                       }
             .column3 {
 		width: 31.3%;
-		float: right;
+		float: left;
 		margin: 1%;
 		margin-right: 0%;
                 Background-color:#A9A9A9;
