@@ -35,14 +35,14 @@ body {
 	}
 
 .column1, .column2, .column3, .column4, .column5 {
-        width: 18.7%;
+        width: 16.7%;
 	float: left;
 	margin: 1%; 
         color: white;              
         font-family: 'SztyletBold';
         font-weight: bold;
         font-style: normal;
-	font-size: 100%
+	font-size: 80%
 }
 
 .column1{
