@@ -1,0 +1,72 @@
+  body {
+		width: 90%;
+		margin: 0 auto;
+        	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Violet-watercolor-flower-wallpapers-download-large-screen.jpg");
+       	 	background-size:100%;
+        	font-family: Arial, Verdana, sans-serif;
+       	 	Color:purple;
+		text-align: center;
+     		}
+         #header{
+               font-family: 'SztyletBold';
+               font-weight: bold;
+               font-style: normal;
+	       font-size: 200%;
+                 }
+	#content {
+	overflow: auto;
+		  }
+            #nav {
+                margin: 1%;
+                background-color:#D2691E;
+		padding: 0.5em 0;
+                font-family: Verdana;
+                font-weight: bold;
+                 }
+	 
+            #feature{
+                margin: 1%;
+                background-color:#DEB887;
+		padding: 0.5em 0;
+                background-image: url("https://images-na.ssl-images-amazon.com/images/I/71MCIYGozNL._AC_SL1500_.jpg");
+                background-size:contain;
+                background-position: right;
+                background-repeat:no-repeat;
+                color: #665544;
+		     }
+            #footer {
+		margin: 1%;
+                background-color:#5F9EA0;
+		padding: 0.5em 0;
+                color: white;}
+	    .column1 {
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+                Background-color:#F08080;
+                color: #665544;
+                       }
+	     .column2{
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+                Background-color:#FFE4C4;
+                color: #665544;
+                      }
+            .column3 {
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+		margin-right: 0%;
+                Background-color:#A9A9A9;
+                color: #665544;
+                      }
+	     li {
+		display: inline;
+		padding: 0.5em;
+		 }
+			
+	    #feature, .article {
+		height: 10em;
+		margin-bottom: 1em;
+		 }
