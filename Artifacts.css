@@ -54,7 +54,6 @@ body {
         }
 
 .column3 {
-	margin-right: 0%;
         Background-color:#E8A465;
         }
 .column4 {
@@ -62,6 +61,7 @@ body {
         color: white;              
         }
 .column5 {
+	margin-right: 0%;
 	Background-color:#A9A9A9;
         }
 
