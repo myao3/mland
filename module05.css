@@ -5,7 +5,15 @@ body {
 	color: #fff;
 	font-family: 'Wellfleet', times, serif;
 	font-size: 100%;
-	margin: 0px 0px 0px 0px;}
+	margin: 0px 0px 0px 0px;
+	background-image: url('../bullseye-logo.png');
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 109px;
+	width: 643px;
+	}
 
 h1 {
 	background-image: url('../bullseye-logo.png');
