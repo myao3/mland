@@ -26,5 +26,5 @@ function GetTableContent(table) {
     }
   
   return '<br/>'+ msg;
-  document.write("<H2>Multiplication Table</H2>");
+ 
     }
