@@ -24,7 +24,7 @@ function GetTableContent(table) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
       i++;
     }
-  document.write("<H2>Multiplication Table</H2>");
-  return ''<br/>'+ msg;
   
+  return '<br/>'+ msg;
+  document.write("<H2>Multiplication Table</H2>");
     }
