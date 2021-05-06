@@ -19,12 +19,12 @@ function GetTableContent(table) {
  
   var i = 1;                 // Set counter to 1
   var msg = '';              // Message  
-  
+    document.write("<H2>Multiplication Table</H2>");
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
       i++;
     }
   
-  return '<h2>Multiplication Table<h2>'+ '<br/>'+ msg;
+  return ''<br/>'+ msg;
   
     }
