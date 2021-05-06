@@ -25,6 +25,6 @@ function GetTableContent(table) {
       i++;
     }
   
-  return '<br/>'+ msg;
+  return '<h2>Multiplication Table</h2>'+'<br/>'+ msg;
  
     }
