@@ -9,13 +9,10 @@ body {
 	}
 
 #heading1 {
-	float:center;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow:hidden;
+	text-align: center;
 	height: 109px;
 	width: 643px;
-	margin: 40px 0px auto 0px;}
+	margin: 40px 0px 0px 0px;}
 
 
 #teacher2 {
