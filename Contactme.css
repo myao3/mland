@@ -1,12 +1,22 @@
 body {
   width: 90%;
-  margin: 100px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
   background-size:100%;
   font-family: Arial, Verdana, sans-serif;
   Color:#D2D2CD;
   text-align: center;
      }
+
+#content {
+  overflow: auto;
+  Color:white;
+  font-family: 'SztyletBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 120%;
+  text-align: right;
+  margin: 0px 0px 0px 0px;     }
 
 #header{
   font-family: 'SztyletBold';
