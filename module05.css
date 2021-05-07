@@ -6,7 +6,10 @@ body {
 	font-family: 'Wellfleet', times, serif;
 	font-size: 150%;
 	margin: 0px 0px 0px 0px;
-	}
+	height: 730px;
+	padding: 10px;
+	min-width: 779px;
+}
 
 #heading1 {
 	height: 109px;
