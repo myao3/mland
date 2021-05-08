@@ -17,7 +17,7 @@ body {
 
 .container {
 	padding: 24px 24px 24px 24px;
-	margin: 12px 12px;
+	margin: 100px 100px;
 	background: #E3F2FD;
 	border-radius: 4px;
 	
@@ -31,7 +31,7 @@ label {
 
 
 input[type=text],input[type=email], textarea {
-    width: 50%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -88,7 +88,7 @@ input[type=submit]:hover {
           
 #footer {
   margin: 1%;
-  background-color:#363139;
+  background-color:E8A465;
   padding: 0.5em 0;
   color: grey;
         }
