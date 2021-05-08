@@ -1,54 +1,51 @@
 body {
-    width: 90%;
-    margin: 0 auto;
-    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
-    background-size:100%;
-    font-family: Arial, Verdana, sans-serif;
-    Color:#D2D2CD;
-    text-align: center;
-     	}
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
+  background-size:100%;
+  font-family: Arial, Verdana, sans-serif;
+  Color:#D2D2CD;
+  text-align: center;
+     }
+
 #header{
-    font-family: 'SztyletBold';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 200%;
+  font-family: 'SztyletBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 200%;
       }
 	   
 #nav {
-    margin: 1%;
-    background-color:#E8B791;
-    padding: 0.5em 0;
-    font-family: Verdana;
-    font-weight: bold;
+  margin: 1%;
+  background-color:;
+  padding: 0.5em 0;
+  font-family: Verdana;
+  font-weight: bold;
     }
+
 #content {
-    overflow: auto;
-     }
+  overflow: auto;
+  Color:white;
+  font-family: 'SztyletBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 120%;
+  text-align: right;
+        }
           
 #footer {
-    margin: 1%;
-    background-color:#D2D2CD;
-    padding: 0.5em 0;
-    color: blue;
-         }
-
-li {
-    display: inline;
-    padding: 0.5em;
-    }
-			
-
-.column1{                    
-    font-family: 'SztyletBold';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 100%;
-    Background-color:#F3D4D0;
-    padding: 0.5em 0;
-    margin: 1%;
+  margin: 1%;
+  background-color:#363139;
+  padding: 0.5em 0;
+  color: grey;
         }
 
-a { color: #9B656F; } 
+li {
+	display: inline;
+	padding: 0.5em;
+   }
+			
+a { color: #F3D4D0; } 
 
 	
 © 2021 GitHub, Inc.
