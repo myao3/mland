@@ -35,7 +35,7 @@ body {
 	}
 
 .column1 {
-        width: 100%;
+        width: 80%;
 	float: left;
 	margin: 1%; 
         color: white;              
@@ -43,7 +43,7 @@ body {
         font-weight: bold;
         font-style: normal;
 	font-size: 80%
-        Background-color:#AEA295
+        Background-color:#AEA295;
 }
 
 li {
