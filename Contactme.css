@@ -16,11 +16,11 @@ body {
       }
 
 .container {
-	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
+	padding: 24px 24px 24px 24px;
+	margin: 12px 12px;
 	background: #E3F2FD;
 	border-radius: 4px;
-	margin: 0px 0px 0px 0px;
+	
 }
 
 label {
