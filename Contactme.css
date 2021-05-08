@@ -8,11 +8,6 @@ body {
   text-align: center;
      }
 
-.content {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;   
-   }
 
 .container {
 	padding: 12px 24px 24px 24px;
@@ -20,7 +15,6 @@ body {
 	background: #E3F2FD;
 	border-radius: 4px;
 }
-
 
 label {
 	font-size: 0.85em;
