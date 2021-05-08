@@ -45,6 +45,10 @@ body {
 	font-size: 80%
 }
 
+img {
+        width: 100%;
+  
+}
 .column1{
         Background-color:#AEA295;
         }
