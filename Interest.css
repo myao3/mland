@@ -32,7 +32,7 @@ body {
         color: white;
 	}
 
-.column1, .column2, .column3, .column4, .column5 {
+.column1 {
         width: 18%;
 	float: left;
 	margin: 1%; 
