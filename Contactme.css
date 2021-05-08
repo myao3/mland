@@ -15,8 +15,10 @@ body {
   font-weight: bold;
   font-style: normal;
   font-size: 120%;
-  text-align: right;
-  margin: 0px 0px 0px 0px;     }
+  text-align: center;
+  margin-left:auto; 
+  margin-right:auto;    
+   }
 
 #header{
   font-family: 'SztyletBold';
