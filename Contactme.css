@@ -16,7 +16,7 @@ body {
       }
 
 .container {
-	padding: 24px 24px 24px 24px;
+	padding: 48px 24px 24px 24px;
 	margin: 100px 100px;
 	background: #E3F2FD;
 	border-radius: 4px;
@@ -79,7 +79,7 @@ input[type=submit]:hover {
 	   
 #nav {
   margin: 1%;
-  background-color:#E3F2FD;
+  background-color:#E7E4CD;
   padding: 0.5em 0;
   font-family: Verdana;
   font-weight: bold;
@@ -87,10 +87,11 @@ input[type=submit]:hover {
 
           
 #footer {
+  background-color:#E3F2FD;
   margin: 1%;
   padding: 0.5em 0;
   color: grey;
-  background-color:#E3F2FD;
+  
     }
 
 li {
