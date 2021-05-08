@@ -1,6 +1,6 @@
 body {
 	width: 90%;
-	margin: 0 auto;
+	margin: 0px 0px 0px 0px;
         background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
        	background-size:100%;
         font-family: Arial, Verdana, sans-serif;
@@ -37,7 +37,7 @@ body {
 	}
 
 .column1 {
-        width: 18%;
+        width: 90%;
 	margin: 1%; 
         color: white;              
         font-family: 'SztyletBold';
