@@ -14,7 +14,11 @@ body {
         font-style: normal;
 	font-size: 200%;
         }
-	   
+
+#content {
+	overflow: auto;
+	 }	 
+
 #nav {
         margin: 1%;
         background-color:#E7E4CD;
