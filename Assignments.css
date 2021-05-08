@@ -1,51 +1,71 @@
 body {
-  width: 90%;
-  margin: 0 auto;
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
-  background-size:100%;
-  font-family: Arial, Verdana, sans-serif;
-  Color:#D2D2CD;
-  text-align: center;
+	width: 90%;
+	margin: 0 auto;
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
+       	background-size:100%;
+        font-family: Arial, Verdana, sans-serif;
+       	Color:#9B656F;
+	text-align: center;
      }
 
 #header{
-  font-family: 'SztyletBold';
-  font-weight: bold;
-  font-style: normal;
-  font-size: 200%;
-      }
+        font-family: 'SztyletBold';
+        font-weight: bold;
+        font-style: normal;
+	font-size: 200%;
+        }
 	   
 #nav {
-  margin: 1%;
-  background-color:;
-  padding: 0.5em 0;
-  font-family: Verdana;
-  font-weight: bold;
-    }
+        margin: 1%;
+        background-color:#E7E4CD;
+	padding: 0.5em 0;
+        font-family: Verdana;
+        font-weight: bold;
+      }
 
 #content {
-  overflow: auto;
-  Color:white;
-  font-family: 'SztyletBold';
-  font-weight: bold;
-  font-style: normal;
-  font-size: 120%;
-  text-align: right;
-        }
+	overflow: auto;
+	 }
           
 #footer {
-  margin: 1%;
-  background-color:#363139;
-  padding: 0.5em 0;
-  color: grey;
+	margin: 1%;
+        background-color:#E7E4CD;
+	padding: 0.5em 0;
+        color: white;
+	}
+
+.column1, .column2, .column3, .column4, .column5 {
+        width: 18%;
+	float: left;
+	margin: 1%; 
+        color: white;              
+        font-family: 'SztyletBold';
+        font-weight: bold;
+        font-style: normal;
+	font-size: 80%
+}
+
+.column1{
+        Background-color:#AEA295;
+        }
+
+.column2{
+        Background-color:#9B656F;
+        }
+
+.column3 {
+        Background-color:#E8A465;
+        }
+.column4 {
+        Background-color:#F2CD87;
+        color: white;              
+        }
+.column5 {
+	margin-right: 0%;
+	Background-color:#A9A9A9;
         }
 
 li {
-  display: inline;
-  padding: 0.5em;
-   }
-			
-a { color: #F3D4D0; } 
-
-	
-© 2021 GitHub, Inc.
+	display: inline;
+	padding: 0.5em;
+}
