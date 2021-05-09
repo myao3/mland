@@ -1,18 +1,14 @@
+	
 // var rHeight =5;
 // var colorEven = "orange";
 // var colorOdd = "black";
 // var symbol ="*";
 
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
-upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
-downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 upRight(pHeight, pColorEven, pColorOdd, pSymbol);
 downRight(pHeight, pColorEven, pColorOdd, pSymbol);
 
 }
-
-
-
 
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
