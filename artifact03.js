@@ -18,7 +18,7 @@ rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
 for (x=1; x<=pHeight-i;x++){
-  rLine +="-"
+  rLine +="<span class=<'space'>" + pSymbol + "</span>";
 }
 //Create each line on the Rhombus
 for(j=x;j<=pHeight;j++){
@@ -39,6 +39,8 @@ rLine +="</p>";
 
 document.getElementById("upLeft").innerHTML = rLine;
 }
+
+
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
 for (i=0;i<pHeight;i++){
