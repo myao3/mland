@@ -16,7 +16,7 @@ var rLine ="";
 for (i=1;i<=pHeight;i++){
 rLine +="<p>";
   
-//Fill in the left side of every row w9ith spaces or blanks
+//Fill in the left side of every row with spaces or blanks
 for (x=1; x<=pHeight-i;x++){
   rLine +="<span class='space'>"+ pSymbol +"</span>";
 }
@@ -95,7 +95,7 @@ for (i=pHeight;i>0;i--){
 rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
-for (x=1; x<=pHeight-i;x--){
+for (x=1; x<=pHeight-i;x++){
   rLine +="-"
 }
 
