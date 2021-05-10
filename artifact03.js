@@ -98,7 +98,6 @@ rLine +="<p>";
 for (x=0; x<pHeight-i;x++){
     rLine +="<span class='space'>"+ pSymbol +"</span>";
 }
-}
 
 //Create each line on the Rhombus
 for(j=x;j<=pHeight;j++){
