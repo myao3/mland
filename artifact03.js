@@ -95,7 +95,7 @@ for (i=1;i<=pHeight;i--){
 rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
-for (j=x;j<=pHeight;j++){
+for (x=1; x<=pHeight-i;x++){
     rLine +="<span class='space'>" +pSymbol+"</span>";
 }
 
