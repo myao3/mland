@@ -91,11 +91,11 @@ document.getElementById("downRight").innerHTML = rLine;
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=	1;i<=pHeight;i++){
+for (i=1;i<=pHeight;i--){
 rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
-for (x=0;x<i;x++){
+for (j=x;j<=pHeight;j++){
     rLine +="<span class='space'>" +pSymbol+"</span>";
 }
 
@@ -108,7 +108,7 @@ if (j%2)
 rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
 else
 //odd
-rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol+"</span>";
 
 }
 rLine +="</p>";
