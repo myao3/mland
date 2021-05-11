@@ -108,7 +108,7 @@ if (j%2)
 rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
 else
 //odd
-rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol+"</span>";
+rLine +="<span style='color:" + pColorOdd + ";'>" +pSymbol+"</span>";
 
 }
 rLine +="</p>";
