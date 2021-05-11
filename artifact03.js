@@ -100,7 +100,7 @@ for (x=0; x<=pHeight-i;x++){
 }
 
 //Create each line on the Rhombus
-for(j=x;j<pHeight;j++){
+for(j=x;j<i-1;j++){
 
 //Is the position even or odd so we change the color
 if (j%2)
