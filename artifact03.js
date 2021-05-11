@@ -91,7 +91,7 @@ document.getElementById("downRight").innerHTML = rLine;
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=0;i<pHeight-1;i++){
+for (i=0;i<pHeight-1;i--){
 rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
