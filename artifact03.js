@@ -95,12 +95,12 @@ for (i=pHeight;i>0;i--){
 rLine +="<p>";
   
 //Fill in the left side of every row with spaces or blanks
-for (x=0; x<pHeight+1-i;x++){
+for (x=1; x<=pHeight-i;x++){
     rLine +="<span class='space'>" +pSymbol+"</span>";
 }
 
 //Create each line on the Rhombus
-for(j=pHeight+1-i;j<=pHeight;j++){
+for(j=0;j<=i;j++){
 
 //Is the position even or odd so we change the color
 if (j%2)
