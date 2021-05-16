@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  background: url("http://javascriptbook.com/code/c03/images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background: url("https://myao3.github.io/mland/module07-2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("http://javascriptbook.com/code/c03/images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("https://myao3.github.io/mland/module07-3.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -107,7 +107,7 @@ p + h2 {
   padding: 0 50px 0 50px;
   line-height: 28px;
   text-align: left;
-  background-image: url("http://javascriptbook.com/code/c03/images/check-cross.png");
+  background-image: url("https://myao3.github.io/mland/module07-1.png");
   background-position: 120px 0;
   background-repeat: no-repeat;}
 
