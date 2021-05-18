@@ -23,11 +23,3 @@ var frmvalidator  = new Validator("myform");
 
  frmvalidator.addValidation("Country","dontselect=000","Country is required");
 
-var country = document.getElementById("Country").value;
-if (country === "USA")
-  if(Zipcode.length = 5)
-  return true;
-  else
-  errorMessages += "<p>The zip code is 5 digits</p>";
-else
-validZipcode = true;
