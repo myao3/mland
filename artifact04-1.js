@@ -1,6 +1,4 @@
 var frmvalidator  = new Validator("myform");
-  frmvalidator.EnableOnPageErrorDisplaySingleBox();
-  frmvalidator.EnableMsgsTogether();
 
   frmvalidator.addValidation("FirstName","maxlen=20","Max length for FirstName is 20");
   frmvalidator.addValidation("FirstName","alpha","Alphabetic chars only");  
