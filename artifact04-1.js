@@ -1,13 +1,13 @@
 function validateForm(){
 
-var validFirstName=false;
+
 //2) read value from HTML
 var FirstName = document.getElementById("FirstName").value;
 //3) Do validation
 if (isAlpha(FirstName) || FirstName==="null" || FirstName==="" || FirstName.length > 3)
-    errorMessages += "The firstname is required and cannot be greater than 3 alphabetic character";
+    document.getElementById("errorMessages").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
+    return false;
 else
-   validFirstName = true;
-document.getElementById("errorMessages").innerHTML = errorMessages;
-return (validFirstName);
+  return true;
+
   }
