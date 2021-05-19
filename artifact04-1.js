@@ -1,4 +1,4 @@
-function validationform(){
+function FirstName(){
 
 var validFirstName=false;
 //2) read value from HTML
