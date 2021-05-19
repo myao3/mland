@@ -13,13 +13,11 @@ if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.
     return false;
 }
 
-
 //3) Do validation
 if ( LastName==="null" || LastName==="" || LastName.length > 3 || !LastName.match(letters)){
     document.getElementById("errorMessages2").innerHTML = "The LastName is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-else{
-  return true;
-}
+return true;
+
   }
