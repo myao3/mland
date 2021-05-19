@@ -16,13 +16,13 @@
 
 <form action="thankyou.html" id="myform" onsubmit="return validateForm();" >
 <p>
-	<label for='FirstName'>First Name:</label>
+	<label for='FirstName'>First Name*:</label>
 	<input type="text" id="FirstName" name="FirstName" />
 	
 </p>
 	<div id="errorMessages1"></div>
 <p>
-	<label for='LastName'>Last Name:</label>
+	<label for='LastName'>Last Name*:</label>
 	<input type="text" id="LastName" name="LastName" />
 </p>
         <div id="errorMessages2"></div>
@@ -116,6 +116,7 @@
 	</select>
 </p>
 	<div id="errorMessages10"></div>
+<p>* Required</P>
 <p>
 	<input type="submit" name="submit" value="Submit">
 </p>
