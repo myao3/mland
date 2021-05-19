@@ -5,7 +5,7 @@ var validFirstName=false;
 var FirstName = document.getElementById("FirstName").value;
 //3) Do validation
 if (isAlpha(FirstName) || FirstName==="null" || FirstName==="" || FirstName.length > 3)
-    errorMessages += "<p>The firstname is required and cannot be greater than 3 alphabetic character</p>";
+    errorMessages += "The firstname is required and cannot be greater than 3 alphabetic character";
 else
    validFirstName = true;
 document.getElementById("errorMessages").innerHTML = errorMessages;
