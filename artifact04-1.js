@@ -13,25 +13,25 @@ if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.
     document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-return true;
+return (FirstName);
     
 //3) Do validation
 if ( LastName==="null" || LastName==="" || LastName.length > 3 || !LastName.match(letters)){
     document.getElementById("errorMessages2").innerHTML = "The LastName is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-return true;
+return (LastName);
     
 if ( Username==="null" || Username==="" || Username.length > 3 ){
     document.getElementById("errorMessages5").innerHTML = "The Username is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-return true;
-    
-if ( Password==="null" || Password==="" || Password.length > 3 ){
+return (Username);    
+
+    if ( Password==="null" || Password==="" || Password.length > 3 ){
     document.getElementById("errorMessages6").innerHTML = "The Password is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-return true;
+return (Password);    
 
   }
