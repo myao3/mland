@@ -8,5 +8,6 @@ if (FirstName==="null" || FirstName==="" || FirstName.length > 3)
     errorMessages += "<p>The firstname is required and cannot be greater than 3 characters</p>";
 else
    validFirstname = true;
+document.getElementById("errorMessages").innerHTML = errorMessages;
 return (validFirstname);
   }
