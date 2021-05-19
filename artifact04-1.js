@@ -3,9 +3,21 @@ function validateForm(){
 
 //2) read value from HTML
 var FirstName = document.getElementById("FirstName").value;
+var letters = /^[A-Za-z]+$/;
 //3) Do validation
-if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || isAlphabetic(FirstName)){
+if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
     document.getElementById("errorMessages").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
+    return false;
+}
+else{
+  return true;
+}
+    
+var LastName = document.getElementById("LastName").value;
+var letters = /^[A-Za-z]+$/;
+//3) Do validation
+if ( LastName==="null" || LastName==="" || LastName.length > 3 || !LastName.match(letters)){
+    document.getElementById("errorMessages").innerHTML = "The LastName is required and cannot be greater than 3 alphabetic character";
     return false;
 }
 else{
