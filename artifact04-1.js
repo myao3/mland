@@ -1,4 +1,4 @@
-function validateForm(){
+function validateForm(FirstName){
 
 
 //2) read value from HTML
@@ -14,7 +14,7 @@ else{
 }
 }
 
-function validateForm(){
+function validateForm(LastName){
 var LastName = document.getElementById("LastName").value;
 var letters = /^[A-Za-z]+$/;
 //3) Do validation
