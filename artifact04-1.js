@@ -1,24 +1,15 @@
-var frmvalidator  = new Validator("myform");
+function validationform(){
 
-  frmvalidator.addValidation("FirstName","maxlen=20","Max length for FirstName is 20");
-  frmvalidator.addValidation("FirstName","alpha","Alphabetic chars only");  
-
-  frmvalidator.addValidation("LastName","maxlen=50","Max length is 50");
-  frmvalidator.addValidation("LastName","alpha","Alphabetic chars only");
+var validFirstName=false;
+//2) read value from HTML
+var FirstName = document.getElementById("FirstName").value;
+//3) Do validation
+if (FirstName==="null" || FirstName==="" || FirstName.length > 3)
+    errorMessages += "<p>The FirstName is required and cannot be greater than 3 characters</p>";
+    return false;
+else
+   return true;
+//4) Send error message to HTML
+document.getElementById("errorMessages").innerHTML = errorMessages;
   
-  frmvalidator.addValidation("EMail","maxlen=50");
-  frmvalidator.addValidation("EMail","email");
-
- frmvalidator.addValidation("Phone","maxlen=15","Maximum 15 digits");
- frmvalidator.addValidation("Phone","numeric","Numerical chars only");
-
- frmvalidator.addValidation("Username","maxlen=12","Max length for Username is 12");
- frmvalidator.addValidation("Password","maxlen=7","Max length for Password is 7");
-
- frmvalidator.addValidation("Address","req","Address is required")
- frmvalidator.addValidation("City","req","City is required")
- frmvalidator.addValidation("State","dontselect=000", "State is required")
-
- frmvalidator.addValidation("Country","dontselect=000","Country is required");
-  
- 
+  }
