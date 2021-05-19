@@ -32,31 +32,31 @@ if ( Username==="null" || Username==="" || Username.length > 3 ){
 }
  
 
-    if ( Password==="null" || Password==="" || Password.length > 3 ){
+if ( Password==="null" || Password==="" || Password.length > 3 ){
     document.getElementById("errorMessages6").innerHTML = "The Password is required and cannot be greater than 3 alphabetic character";
     return false;
 }
 
 
-    if ( Address==="null" || Address==="" ){
+if ( Address==="null" || Address==="" ){
     document.getElementById("errorMessages7").innerHTML = "The Address is required";
     return false;
 }
     
     
-    if ( City==="null" || City==="" ){
+if ( City==="null" || City==="" ){
     document.getElementById("errorMessages8").innerHTML = "The City is required";
     return false;
 }
 
     
-    if ( State==="null" || State==="000" ){
+if ( State==="null" || State==="000" ){
     document.getElementById("errorMessages9").innerHTML = "The State is required";
     return false;
 }
    
     
-    if ( Country==="null" || Country==="000" ){
+if ( Country==="null" || Country==="000" ){
     document.getElementById("errorMessages10").innerHTML = "The Country is required";
     return false;
 }
