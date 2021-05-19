@@ -12,7 +12,9 @@ if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.
 else{
   return true;
 }
-    
+}
+
+function validateForm(){
 var LastName = document.getElementById("LastName").value;
 var letters = /^[A-Za-z]+$/;
 //3) Do validation
