@@ -6,6 +6,6 @@ font-size:  20px;
 text-align: right; 
 }
 
-#errorMessages1 {
+#errorMessages1  #errorMessages2 #errorMessages3 {
 color:red;
 }
