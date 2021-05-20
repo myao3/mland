@@ -13,9 +13,6 @@ if ( Country==="null" || Country==="000" ){
     return false;
 }
      
-if (  Country==="USA" || Zipcode.length > 5){
-    document.getElementById("errorMessages6").innerHTML = "The Zip code is required";
-    return false;
-}
+
 return true; 
 }
