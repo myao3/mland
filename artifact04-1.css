@@ -1,5 +1,6 @@
-.label {text-align: right; 
+body {text-align: right; 
     font-size:  30px;
+    margin-left:0px;
 }
 
 #errorMessages{
