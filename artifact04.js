@@ -18,10 +18,12 @@ var phone = document.getElementById("Phone").value;
 
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=EMail.length) {
     document.getElementById("errorMessages5").innerHTML = "<p>Invalid email</p>";
-    
+    return false;
+}
      
-if (isNaN(Phone) || Phone.lenght >15 || Phone===null || Phone==="")
+if (isNaN(Phone) || Phone.lenght >15 || Phone===null || Phone===""){
     document.getElementById("errorMessages6").innerHTML= "<p>Invalid phone number </p>";
     return false;
-
+}
 return true; 
+}
