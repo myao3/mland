@@ -1,8 +1,17 @@
+
+function validateForm(FirstName){
+var FirstName = document.getElementById("FirstName").value;
+if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
+    document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
+    return false;
+}
+}
+
 function validateForm(){
 
 
 //2) read value from HTML
-var FirstName = document.getElementById("FirstName").value;
+
 var LastName = document.getElementById("LastName").value;
 var Username = document.getElementById("Username").value;
 var Password = document.getElementById("Password").value;
@@ -19,10 +28,7 @@ var numbers=/^[0-9]+$/;
 var Zipcode = document.getElementById("Zipcode").value;    
     
 //3) Do validation
-if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
-    document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
-    return false;
-}
+
 
     
 //3) Do validation
@@ -77,12 +83,12 @@ if ( Country==="null" || Country==="000" ){
 }
     
 if ( Country==="USA" ){
+   if (Zipcode.lenght>5 ||!Zipcode.match(numbers)){
    document.getElementById("errorMessages11").innerHTML = "The Zip code is required";
    return false;
    
-   else (Zipcode.lenght>5 ||!Zipcode.match(numbers)){
-   document.getElementById("errorMessages12").innerHTML = "Maximum 5 digits";
-   return false;
+   else 
+   return true;
    }
 }    
     
