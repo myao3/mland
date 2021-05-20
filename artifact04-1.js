@@ -11,6 +11,12 @@ var City = document.getElementById("City").value;
 var State = document.getElementById("State").value;
 var Country = document.getElementById("Country").value;
 var letters = /^[A-Za-z]+$/;
+var EMail = document.getElementById("EMail").value;
+var atpos = EMail.indexOf("@");
+var dotpos = EMail.lastIndexOf(".");
+var Phone = document.getElementById("Phone").value;   
+var numbers=/^[0-9]+$/;   
+    
     
 //3) Do validation
 if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
@@ -24,16 +30,25 @@ if ( LastName==="null" || LastName==="" || LastName.length > 3 || !LastName.matc
     document.getElementById("errorMessages2").innerHTML = "The LastName is required and cannot be greater than 3 alphabetic character";
     return false;
 }
-
+    
+if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=EMail.length) {
+    document.getElementById("errorMessages3").innerHTML = "<p>Invalid email. </p>";
+    return false;
+}
+     
+if (!Phone.match(numbers) || Phone.lenght >15 || Phone===null || Phone===""){
+    document.getElementById("errorMessages4").innerHTML= "<p>Invalid phone number.</p>";
+    return false;
+}
     
 if ( Username==="null" || Username==="" || Username.length > 3 ){
-    document.getElementById("errorMessages5").innerHTML = "The Username is required and cannot be greater than 3 alphabetic character";
+    document.getElementById("errorMessages5").innerHTML = "The Username is required and cannot be greater than 3 character";
     return false;
 }
  
 
 if ( Password==="null" || Password==="" || Password.length > 3 ){
-    document.getElementById("errorMessages6").innerHTML = "The Password is required and cannot be greater than 3 alphabetic character";
+    document.getElementById("errorMessages6").innerHTML = "The Password is required and cannot be greater than 3 character";
     return false;
 }
 
