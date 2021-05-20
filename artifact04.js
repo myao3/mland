@@ -14,13 +14,13 @@ var letters = /^[A-Za-z]+$/;
 var EMail = document.getElementById("EMail").value;
 var atpos = userEmail.indexOf("@");
 var dotpos = userEmail.lastIndexOf(".");
-var phone = document.getElementById("phone").value;    
+var phone = document.getElementById("Phone").value;    
 
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=EMail.length) {
     document.getElementById("errorMessages5").innerHTML = "<p>Invalid email</p>";
     
      
-if (isNaN(phone) || phone.lenght >15 || phone===null || phone==="")
+if (isNaN(Phone) || Phone.lenght >15 || Phone===null || Phone==="")
     document.getElementById("errorMessages6").innerHTML= "<p>Invalid phone number </p>";
     return false;
 
