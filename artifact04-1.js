@@ -5,6 +5,7 @@ if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.
     document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
     return false;
 }
+return true; 
 }
 
 function validateForm(){
