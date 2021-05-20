@@ -77,12 +77,10 @@ if ( Country==="null" || Country==="000" ){
     return false;
 }
     
-//if ( Country==="USA" ){
-   // if (Zipcode.lenght>5 ||!Zipcode.match(numbers)|| Zipcode === "null" || Zipcode==="" )){
-   //document.getElementById("errorMessages11").innerHTML = "The Zip code is required. Max 5 digits";
-  //  return false;
-  // }
-//}    
+if (( Country==="USA" ) && (Zipcode.lenght>5 ||!Zipcode.match(numbers)|| Zipcode === "null" || Zipcode==="" )){
+    document.getElementById("errorMessages11").innerHTML = "The Zip code is required. Max 5 digits";
+    return false;
+}    
     
 return true; 
     
