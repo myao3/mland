@@ -76,10 +76,13 @@ if ( Country==="null" || Country==="000" ){
     return false;
 }
     
-if ( Country==="USA" || Zipcode.lenght>5 ){
+if ( Country==="USA" ||  ){
    document.getElementById("errorMessages11").innerHTML = "The Zip code is required";
    return false;
-  
+   else if (Zipcode.lenght>5){
+   document.getElementById("errorMessages11").innerHTML = "The Zip code is required";
+   return false;
+   }
 }    
     
 return true; 
