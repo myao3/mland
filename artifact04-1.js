@@ -78,14 +78,11 @@ if ( Country==="null" || Country==="000" ){
 }
     
 if ( Country==="USA" ){
-   if (Zipcode.lenght>5 ||!Zipcode.match(numbers)){
-   document.getElementById("errorMessages11").innerHTML = "Max 5 digits";
-   return false;
+    if (Zipcode.lenght>5 ||!Zipcode.match(numbers)|| Zipcode === "null" || Zipcode==="" )){
+    document.getElementById("errorMessages11").innerHTML = "The Zip code is required. Max 5 digits";
+    return false;
    }
- else (Zipcode === "null" || Zipcode==="" ){
-   document.getElementById("errorMessages12").innerHTML = "The Zip code is required";  
-   return false;
-   }
+return false;
 }    
     
 return true; 
