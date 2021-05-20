@@ -16,7 +16,7 @@ var atpos = EMail.indexOf("@");
 var dotpos = EMail.lastIndexOf(".");
 var Phone = document.getElementById("Phone").value;   
 var numbers=/^[0-9]+$/;   
-    
+var Zipcode = document.getElementById("Zipcode").value;    
     
 //3) Do validation
 if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
@@ -75,6 +75,15 @@ if ( Country==="null" || Country==="000" ){
     document.getElementById("errorMessages10").innerHTML = "The Country is required";
     return false;
 }
+    
+if ( Country==="USA" ){
+    if (Zipcode.lenght>5 ){
+        document.getElementById("errorMessages11").innerHTML = "The Zip code is required";
+        return false;
+    }
+   return false; 
+}    
+    
 return true; 
     
     
