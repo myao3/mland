@@ -80,7 +80,7 @@ if ( Country==="USA" ){
    document.getElementById("errorMessages11").innerHTML = "The Zip code is required";
    return false;
    
-   else if (Zipcode.lenght>5){
+   else (Zipcode.lenght>5 ||!Zipcode.match(numbers)){
    document.getElementById("errorMessages12").innerHTML = "Maximum 5 digits";
    return false;
    }
