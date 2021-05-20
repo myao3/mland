@@ -82,7 +82,6 @@ if ( Country==="USA" ){
     document.getElementById("errorMessages11").innerHTML = "The Zip code is required. Max 5 digits";
     return false;
    }
-return false;
 }    
     
 return true; 
