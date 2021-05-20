@@ -1,18 +1,9 @@
 
-function validateForm(FirstName){
-var FirstName = document.getElementById("FirstName").value;
-if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
-    document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
-    return false;
-}
-return true; 
-}
-
 function validateForm(){
 
 
 //2) read value from HTML
-
+var FirstName = document.getElementById("FirstName").value;
 var LastName = document.getElementById("LastName").value;
 var Username = document.getElementById("Username").value;
 var Password = document.getElementById("Password").value;
@@ -30,7 +21,10 @@ var Zipcode = document.getElementById("Zipcode").value;
     
 //3) Do validation
 
-
+if ( FirstName==="null" || FirstName==="" || FirstName.length > 3 || !FirstName.match(letters)){
+    document.getElementById("errorMessages1").innerHTML = "The firstname is required and cannot be greater than 3 alphabetic character";
+    return false;
+}
     
 //3) Do validation
 if ( LastName==="null" || LastName==="" || LastName.length > 3 || !LastName.match(letters)){
