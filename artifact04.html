@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <meta charset="UTF-8">
+ <meta name="description" content="Artifact04">
+ <meta name="keywords" content="HTML,CSS,js">
+ <meta name="author" content="Mengzhou Yao">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="https://myao3.github.io/mland/artifact04-1.css">  
+<title>Artifact 4</title>
+
+</head>
+<body>
+
+<form action="https://myao3.github.io/mland/thankyou.html" id="myform" onsubmit="return validateForm();" >
+<p>
+	<label for='FirstName'>First Name*:</label>
+	<input type="text" id="FirstName" name="FirstName" />
+</p>
+	<div id="errorMessages1"></div>
+<p>
+	<label for='LastName'>Last Name*:</label>
+	<input type="text" id="LastName" name="LastName" />
+</p>
+        <div id="errorMessages2"></div>
+<p>
+  <p>
+	<input type="submit" name="submit" value="Submit">
+</p>
+</form>
+  <script>>
+  function validateForm(){
+      var FirstName = document.getElementById("FirstName").value;
+      var errorMessages1 = true;
+      
+      if(FirstName == "" || FirstName==="null") {
+        document.getElementById("errorMessages1").innerHTML = "Please enter your name");
+    } else {
+        var letters = /^[A-Za-z]+$/;               
+        if(letters.test(FirstName) === false) {
+            document.getElementById("errorMessages1").innerHTML= "Please enter a valid name");
+        } else {
+            printError("errorMessages1", "");
+            errorMessages1 = false;
+        }
+    }
+
+
+
+
+  
+  </script>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
