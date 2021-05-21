@@ -60,7 +60,10 @@
             errorMessages2 = false;
         }
     }
-      if((errorMessages1 ) && (errorMessages2) == true) {
+      if(errorMessages1  == true) {
+       return false;
+    } 
+    if(errorMessages2 == true) {
        return false;
     } 
   }
