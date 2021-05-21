@@ -9,6 +9,8 @@ function validateForm(){
       var City = document.getElementById("City").value;
       var State = document.getElementById("State").value;
       var Country = document.getElementById("Country").value;
+      var Zipcode = document.getElementById("Zipcode").value;  
+	
       var errorMessages1 =true;
       var errorMessages2 =true;
       var errorMessages3 =true;
@@ -19,6 +21,7 @@ function validateForm(){
       var errorMessages8 =true;
       var errorMessages9 =true;
       var errorMessages10 =true;
+      var errorMessages11 =true;
       
       if (FirstName == "" || FirstName==="null") {
          document.getElementById("errorMessages1").innerHTML = "Please enter your first name.";
@@ -119,7 +122,7 @@ function validateForm(){
           errorMessages8 = false;
 	 }
 	
-      if (State == "" || State==="null") {
+      if (State==="000") {
          document.getElementById("errorMessages9").innerHTML = "Please enter your state.";
           } 
          else {             
@@ -127,13 +130,27 @@ function validateForm(){
           errorMessages9 = false;
         }
 	
-       if (Country == "" || Country==="null") {
+       if (Country==="000"") {
          document.getElementById("errorMessages10").innerHTML = "Please enter your country.";
           } 
          else {             
          document.getElementById("errorMessages10").innerHTML = "";
           errorMessages10 = false;
+	 }
+
+      if (Country==="USA") {
+         document.getElementById("errorMessages11").innerHTML = "Please enter your zip code.";
+          } 
+         else {       
+	var regex = /^[a-zA-Z\s]+$/; 	 
+        if(Zipcode.lenght>5 ||regex.test(Zipcode)|| Zipcode === "null" || Zipcode==="") {
+          document.getElementById("errorMessages11").innerHTML = "The zip code cannot be greater than 5 digits. ";
+          } 
+        else {
+          document.getElementById("errorMessages11").innerHTML = "";
+          errorMessages11 = false;
         }
+    }
 
      if(errorMessages1  == true) {
        return false;
@@ -163,6 +180,9 @@ function validateForm(){
        return false;
     } 
      if(errorMessages10 == true) {
+       return false;
+    } 
+    if(errorMessages11 == true) {
        return false;
     } 
   }
