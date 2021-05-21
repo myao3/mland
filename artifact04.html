@@ -26,48 +26,41 @@
 </p>
         <div id="errorMessages2"></div>
 <p>
-  <p>
+	<label for='EMail'>EMail*:</label>
+	<input type="text" id="EMail" name="EMail"/>
+</p>
+	 <div id="errorMessages3"></div>
+<p>
+	<label for='Phone'>Phone*:</label>
+	<input type="text" id="Phone" name="Phone"/>
+</p>
+	 <div id="errorMessages4"></div>
+<p>	
+        <label for='Username'>Username*:</label>
+	<input type="text" id="Username" name="Username" />
+</p>
+	  <div id="errorMessages5"></div>
+<p>
+	<label for='Password'>Password*:</label>
+	<input type="text" id="Password" name="Password" />
+</p>
+	  <div id="errorMessages6"></div>
+	
+<p>
+	<label for='Address'>Address*:</label>
+	<textarea cols="20" rows="5" id="Address" name="Address" ></textarea>
+</p>
+	<div id="errorMessages7"></div>
+<p>
+	<label for='City'>City*:</label>
+	<input type="text" id="City" name="City"/>
+</p>
+	<div id="errorMessages8"></div>
+<p>
 	<input type="submit" name="submit" value="Submit">
 </p>
 </form>
-  <script>
-  function validateForm(){
-      var FirstName = document.getElementById("FirstName").value;
-      var LastName = document.getElementById("LastName").value;
-      var errorMessages1 =true;
-      var errorMessages2 =true;
-      
-      if (FirstName == "" || FirstName==="null") {
-         document.getElementById("errorMessages1").innerHTML = "Please enter your first name";
-    } else {
-        var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(FirstName) === false || FirstName.length > 3 ){
-             document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name";
-        } else {
-             document.getElementById("errorMessages1").innerHTML = "";
-            errorMessages1 = false;
-        }
-    }
-	  
-     if (LastName == "") {
-         document.getElementById("errorMessages2").innerHTML = "Please enter your last name";
-    } else {
-        var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(LastName) === false) {
-             document.getElementById("errorMessages2").innerHTML = "Please enter a valid last name";
-        } else {
-             document.getElementById("errorMessages2").innerHTML = "";
-            errorMessages2 = false;
-        }
-    }
-      if(errorMessages1  == true) {
-       return false;
-    } 
-     if(errorMessages2 == true) {
-       return false;
-    } 
-  }
-</script>
+  <script src="https://myao3.github.io/mland/artifact04.js"></script>
 </body>
 </html>
   
