@@ -36,11 +36,11 @@
       var errorMessages1 = true;
       
       if(FirstName == "" || FirstName==="null") {
-        document.getElementById("errorMessages1").innerHTML = "Please enter your name");
+        document.getElementById("errorMessages1").innerHTML = "Please enter your name";
     } else {
         var letters = /^[A-Za-z]+$/;               
         if(letters.test(FirstName) === false) {
-            document.getElementById("errorMessages1").innerHTML= "Please enter a valid name");
+            document.getElementById("errorMessages1").innerHTML= "Please enter a valid name";
         } else {
             printError("errorMessages1", "");
             errorMessages1 = false;
