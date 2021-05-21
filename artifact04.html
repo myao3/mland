@@ -38,25 +38,25 @@
       var errorMessages2 =true;
       
       if (FirstName == "") {
-        printError("errorMessages1", "Please enter your first name");
+         document.getElementById("errorMessages1").innerHTML = "Please enter your first name";
     } else {
         var regex = /^[a-zA-Z\s]+$/;                
         if(regex.test(FirstName) === false) {
-            printError("errorMessages1", "Please enter a valid first name");
+             document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name";
         } else {
-            printError("errorMessages1", "");
+             document.getElementById("errorMessages1").innerHTML = "";
             errorMessages1 = false;
         }
     }
 	  
      if (LastName == "") {
-        printError("errorMessages2", "Please enter your first name");
+         document.getElementById("errorMessages2").innerHTML = "Please enter your first name";
     } else {
         var regex = /^[a-zA-Z\s]+$/;                
         if(regex.test(LastName) === false) {
-            printError("errorMessages2", "Please enter a valid last name");
+             document.getElementById("errorMessages2").innerHTML = "Please enter a valid last name";
         } else {
-            printError("errorMessages2", "");
+             document.getElementById("errorMessages2").innerHTML = "";
             errorMessages2 = false;
         }
     }
