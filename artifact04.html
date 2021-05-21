@@ -38,17 +38,29 @@
       var errorMessages2 =true;
       var letters = /^[A-Za-z]+$/;
       
-      if(FirstName == "" || FirstName==="null" || FirstName.length > 3 || !FirstName.match(letters)) {
-        document.getElementById("errorMessages1").innerHTML = "Please enter your name. Max 3 alphabetic character.";
-        return false; 
-      
-      } 
-	  return true;
-	if(LastName == "" || LastName==="null" || LastName.length > 3 || !LastName.match(letters)) {
-        document.getElementById("errorMessages2").innerHTML = "Please enter your last name. Max 3 alphabetic character.";
-        return false; 
+      if (FirstName == "") {
+        printError("errorMessages1", "Please enter your first name");
+    } else {
+        var regex = /^[a-zA-Z\s]+$/;                
+        if(regex.test(FirstName) === false) {
+            printError("errorMessages1", "Please enter a valid first name");
+        } else {
+            printError("errorMessages1", "");
+            errorMessages1 = false;
+        }
     }
-	    return true;
+	  
+     if (LastName == "") {
+        printError("errorMessages2", "Please enter your first name");
+    } else {
+        var regex = /^[a-zA-Z\s]+$/;                
+        if(regex.test(LastName) === false) {
+            printError("errorMessages2", "Please enter a valid last name");
+        } else {
+            printError("errorMessages2", "");
+            errorMessages2 = false;
+        }
+    }
       if((errorMessages1 ) && (errorMessages2) == true) {
        return false;
     } 
