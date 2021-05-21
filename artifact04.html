@@ -37,11 +37,11 @@
       var errorMessages1 =true;
       var errorMessages2 =true;
       
-      if (FirstName == "") {
+      if (FirstName == "" || FirstName==="null") {
          document.getElementById("errorMessages1").innerHTML = "Please enter your first name";
     } else {
         var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(FirstName) === false) {
+        if(regex.test(FirstName) === false || FirstName.length > 3 ){
              document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name";
         } else {
              document.getElementById("errorMessages1").innerHTML = "";
@@ -63,7 +63,7 @@
       if(errorMessages1  == true) {
        return false;
     } 
-    if(errorMessages2 == true) {
+     if(errorMessages2 == true) {
        return false;
     } 
   }
