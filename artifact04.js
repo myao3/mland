@@ -1,15 +1,9 @@
 function validateForm(){
       var FirstName = document.getElementById("FirstName").value;
       var LastName = document.getElementById("LastName").value;
-      var Username = document.getElementById("Username").value;
-      var Password = document.getElementById("Password").value;
-      var Address = document.getElementById("Address").value;
-      var City = document.getElementById("City").value;
-      var State = document.getElementById("State").value;
-      var Country = document.getElementById("Country").value;
       var EMail = document.getElementById("EMail").value;
       var Phone = document.getElementById("Phone").value;   
-      var Zipcode = document.getElementById("Zipcode").value;    
+   
       var errorMessages1 =true;
       var errorMessages2 =true;
       var errorMessages3 =true;
