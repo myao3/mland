@@ -3,17 +3,17 @@
 <head>
 
  <meta charset="UTF-8">
- <meta name="description" content="Artifact04">
+ <meta name="description" content="Validate Contact Us Form using Javascript">
  <meta name="keywords" content="HTML,CSS,js">
  <meta name="author" content="Mengzhou Yao">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" type="text/css" href="https://myao3.github.io/mland/artifact04-1.css">  
-<title>Artifact 4</title>
+<title>Contact Us</title>
 
 </head>
 <body>
-
+<h2>Contact Us </h2>
 <form action="https://myao3.github.io/mland/artifact04-2.html" id="myform" onsubmit="return validateForm();" >
 <p>
 	<label for='FirstName'>First Name*:</label>
@@ -44,18 +44,17 @@
 	<label for='Password'>Password*:</label>
 	<input type="text" id="Password" name="Password" />
 </p>
-	  <div id="errorMessages6"></div>
+	<div id="errorMessages6"></div>
 	
 <p>
 	<label for='Address'>Address*:</label>
 	<textarea cols="20" rows="5" id="Address" name="Address" ></textarea>
 </p>
-	
+	<div id="errorMessages7"></div>
 <p>
 	<label for='City'>City*:</label>
 	<input type="text" id="City" name="City"/>
 </p>
-	<div id="errorMessages7"></div>
 	<div id="errorMessages8"></div>
  <p>
 	<label for='State'>State*:</label>
