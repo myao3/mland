@@ -138,14 +138,13 @@ function validateForm(){
           errorMessages10 = false;
 	 }
 
-       
-	var numbers=/^[0-9]+$/;  	 
+     	 
         if((Country==="USA") && (Zipcode === "null" || Zipcode==="")) {
           document.getElementById("errorMessages11").innerHTML = "Please enter your zip code.";
           } 
 	  else {   
 	  var numbers=/^[0-9]+$/; 
-	  if(Zipcode.lenght>5 ||numbers.test(Zipcode) {
+	  if(Zipcode.lenght>5 ||numbers.test(Zipcode)) {
            document.getElementById("errorMessages11").innerHTML = "The zip code cannot be greater than 5 digits.";
           } 
           else {
