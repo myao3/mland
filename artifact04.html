@@ -33,10 +33,11 @@
   <script>
   function validateForm(){
       var FirstName = document.getElementById("FirstName").value;
-      var errorMessages1 = true;
+      var LastName = document.getElementById("LastName").value;
+      var errorMessages1 = errorMessages2 =true;
       
-      if(FirstName == "" || FirstName==="null") {
-        document.getElementById("errorMessages1").innerHTML = "Please enter your name";
+      if(FirstName == "" || FirstName==="null" || FirstName.length > 3) {
+        document.getElementById("errorMessages1").innerHTML = "Please enter your name. Max 3 alphabetic character.";
     } else {
         var letters = /^[A-Za-z]+$/;               
         if(letters.test(FirstName) === false) {
@@ -46,7 +47,18 @@
             errorMessages1 = false;
         }
     }
-if((errorMessages1 ) == true) {
+	if(LastName == "" || LastName==="null" || LastName.length > 3) {
+        document.getElementById("errorMessages2").innerHTML = "Please enter your last name. Max 3 alphabetic character.";
+    } else {
+        var letters = /^[A-Za-z]+$/;               
+        if(letters.test(LastName) === false) {
+            document.getElementById("errorMessages2").innerHTML= "Please enter a valid last name";
+        } else {
+            printError("errorMessages2", "");
+            errorMessages2 = false;
+        }
+    }
+if((errorMessages1 || errorMessages2) == true) {
        return false;
     } 
   }
