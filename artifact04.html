@@ -34,7 +34,8 @@
   function validateForm(){
       var FirstName = document.getElementById("FirstName").value;
       var LastName = document.getElementById("LastName").value;
-      var errorMessages1 = errorMessages2 =true;
+      var errorMessages1 =true;
+      var errorMessages2 =true;
       
       if(FirstName == "" || FirstName==="null" || FirstName.length > 3) {
         document.getElementById("errorMessages1").innerHTML = "Please enter your name. Max 3 alphabetic character.";
