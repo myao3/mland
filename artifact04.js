@@ -5,13 +5,20 @@ function validateForm(){
       var Phone = document.getElementById("Phone").value;  
       var Username = document.getElementById("Username").value;
       var Password = document.getElementById("Password").value;
-   
+      var Address = document.getElementById("Address").value;
+      var City = document.getElementById("City").value;
+      var State = document.getElementById("State").value;
+      var Country = document.getElementById("Country").value;
       var errorMessages1 =true;
       var errorMessages2 =true;
       var errorMessages3 =true;
       var errorMessages4 =true;
       var errorMessages5 =true;
       var errorMessages6 =true;
+      var errorMessages7 =true;
+      var errorMessages8 =true;
+      var errorMessages9 =true;
+      var errorMessages10 =true;
       
       if (FirstName == "" || FirstName==="null") {
          document.getElementById("errorMessages1").innerHTML = "Please enter your first name.";
@@ -95,6 +102,39 @@ function validateForm(){
           errorMessages6 = false;
         }
     }
+	
+      if (Address == "" || Address==="null") {
+         document.getElementById("errorMessages7").innerHTML = "Please enter your address.";
+          } 
+         else {             
+          document.getElementById("errorMessages7").innerHTML = "";
+          errorMessages7 = false;
+        }
+	
+      if (City == "" || City==="null") {
+         document.getElementById("errorMessages8").innerHTML = "Please enter your city.";
+          } 
+         else {             
+          document.getElementById("errorMessages8").innerHTML = "";
+          errorMessages8 = false;
+	 }
+	
+      if (State == "" || State==="null") {
+         document.getElementById("errorMessages9").innerHTML = "Please enter your state.";
+          } 
+         else {             
+         document.getElementById("errorMessages9").innerHTML = "";
+          errorMessages9 = false;
+        }
+	
+       if (Country == "" || Country==="null") {
+         document.getElementById("errorMessages10").innerHTML = "Please enter your country.";
+          } 
+         else {             
+         document.getElementById("errorMessages10").innerHTML = "";
+          errorMessages10 = false;
+        }
+
      if(errorMessages1  == true) {
        return false;
     } 
@@ -111,6 +151,18 @@ function validateForm(){
        return false;
     } 
      if(errorMessages6 == true) {
+       return false;
+    }  
+     if(errorMessages7 == true) {
+       return false;
+    } 
+     if(errorMessages8 == true) {
+       return false;
+    } 
+     if(errorMessages9 == true) {
+       return false;
+    } 
+     if(errorMessages10 == true) {
        return false;
     } 
   }
