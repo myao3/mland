@@ -29,7 +29,7 @@ function validateForm(){
         else {
         var regex = /^[a-zA-Z\s]+$/;                
         if(regex.test(FirstName) === false || FirstName.length > 3 ){
-          document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name. Maximum 20 characters.";
+          document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name. Maximum 20 alphabetic characters.";
           } 
         else {
           document.getElementById("errorMessages1").innerHTML = "";
@@ -43,7 +43,7 @@ function validateForm(){
          else {
         var regex = /^[a-zA-Z\s]+$/;                
         if(regex.test(LastName) === false || LastName.length > 3) {
-          document.getElementById("errorMessages2").innerHTML = "Please enter a valid last name. Maximum 50 characters. ";
+          document.getElementById("errorMessages2").innerHTML = "Please enter a valid last name. Maximum 50 alphabetic characters. ";
           } 
         else {
           document.getElementById("errorMessages2").innerHTML = "";
@@ -52,13 +52,13 @@ function validateForm(){
     }
     
     if (EMail == "" || EMail==="null") {
-         document.getElementById("errorMessages3").innerHTML = "Please enter your Email";
+         document.getElementById("errorMessages3").innerHTML = "Please enter your Email.";
           } 
          else {
          var atpos = EMail.indexOf("@");
          var dotpos = EMail.lastIndexOf(".");             
         if(atpos< 1 || dotpos<atpos+2 || dotpos+2>=EMail.length) {
-          document.getElementById("errorMessages3").innerHTML = "Please enter a valid Email";
+          document.getElementById("errorMessages3").innerHTML = "Please enter a valid Email.";
           } 
         else {
           document.getElementById("errorMessages3").innerHTML = "";
@@ -72,7 +72,7 @@ function validateForm(){
          else {
         var numbers=/^[0-9]+$/;               
         if(numbers.test(Phone) === false || Phone.length > 3) {
-          document.getElementById("errorMessages4").innerHTML = "Please enter a valid phone number. Maximum 15 characters. ";
+          document.getElementById("errorMessages4").innerHTML = "Please enter a valid phone number. Maximum 15 digits. ";
           } 
         else {
           document.getElementById("errorMessages4").innerHTML = "";
@@ -85,7 +85,7 @@ function validateForm(){
           } 
          else {             
         if(Username.length > 3) {
-          document.getElementById("errorMessages5").innerHTML = "The username cannot be greater than 3 characters. ";
+          document.getElementById("errorMessages5").innerHTML = "The username cannot be greater than 3 characters.";
           } 
         else {
           document.getElementById("errorMessages5").innerHTML = "";
@@ -98,7 +98,7 @@ function validateForm(){
           } 
          else {             
         if(Password.length > 3) {
-          document.getElementById("errorMessages6").innerHTML = "The password cannot be greater than 3 characters. ";
+          document.getElementById("errorMessages6").innerHTML = "The password cannot be greater than 3 characters.";
           } 
         else {
           document.getElementById("errorMessages6").innerHTML = "";
@@ -144,7 +144,7 @@ function validateForm(){
          else {       
 	var regex = /^[a-zA-Z\s]+$/; 	 
         if(Zipcode.lenght>5 ||regex.test(Zipcode)|| Zipcode === "null" || Zipcode==="") {
-          document.getElementById("errorMessages11").innerHTML = "The zip code cannot be greater than 5 digits. ";
+          document.getElementById("errorMessages11").innerHTML = "The zip code cannot be greater than 5 digits.";
           } 
         else {
           document.getElementById("errorMessages11").innerHTML = "";
