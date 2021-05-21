@@ -130,7 +130,7 @@ function validateForm(){
           errorMessages9 = false;
         }
 	
-       if (Country==="000"") {
+       if (Country==="000") {
          document.getElementById("errorMessages10").innerHTML = "Please enter your country.";
           } 
          else {             
