@@ -56,7 +56,7 @@ function validateForm(){
          document.getElementById("errorMessages4").innerHTML = "Please enter your phone number.";
           } 
          else {
-        var numbers=/^[0-9]+$/;;                
+        var numbers=/^[0-9]+$/;               
         if(numbers.test(Phone) === false || Phone.length > 3) {
           document.getElementById("errorMessages4").innerHTML = "Please enter a valid phone number. Maximum 15 characters. ";
           } 
