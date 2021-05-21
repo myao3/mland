@@ -28,7 +28,7 @@ function validateForm(){
           } 
         else {
         var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(FirstName) === false || FirstName.length > 3 ){
+        if(regex.test(FirstName) === false || FirstName.length > 20 ){
           document.getElementById("errorMessages1").innerHTML = "Please enter a valid first name. Maximum 20 alphabetic characters.";
           } 
         else {
@@ -42,7 +42,7 @@ function validateForm(){
           } 
          else {
         var regex = /^[a-zA-Z\s]+$/;                
-        if(regex.test(LastName) === false || LastName.length > 3) {
+        if(regex.test(LastName) === false || LastName.length > 50) {
           document.getElementById("errorMessages2").innerHTML = "Please enter a valid last name. Maximum 50 alphabetic characters. ";
           } 
         else {
@@ -71,7 +71,7 @@ function validateForm(){
           } 
          else {
         var numbers=/^[0-9]+$/;               
-        if(numbers.test(Phone) === false || Phone.length > 3) {
+        if(numbers.test(Phone) === false || Phone.length > 15) {
           document.getElementById("errorMessages4").innerHTML = "Please enter a valid phone number. Maximum 15 digits. ";
           } 
         else {
@@ -84,8 +84,8 @@ function validateForm(){
          document.getElementById("errorMessages5").innerHTML = "Please enter your username.";
           } 
          else {             
-        if(Username.length > 3) {
-          document.getElementById("errorMessages5").innerHTML = "The username cannot be greater than 3 characters.";
+        if(Username.length > 12) {
+          document.getElementById("errorMessages5").innerHTML = "The username cannot be greater than 12 characters.";
           } 
         else {
           document.getElementById("errorMessages5").innerHTML = "";
@@ -97,8 +97,8 @@ function validateForm(){
          document.getElementById("errorMessages6").innerHTML = "Please enter your password.";
           } 
          else {             
-        if(Password.length > 3) {
-          document.getElementById("errorMessages6").innerHTML = "The password cannot be greater than 3 characters.";
+        if(Password.length > 7) {
+          document.getElementById("errorMessages6").innerHTML = "The password cannot be greater than 7 characters.";
           } 
         else {
           document.getElementById("errorMessages6").innerHTML = "";
