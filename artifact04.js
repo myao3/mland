@@ -2,12 +2,16 @@ function validateForm(){
       var FirstName = document.getElementById("FirstName").value;
       var LastName = document.getElementById("LastName").value;
       var EMail = document.getElementById("EMail").value;
-      var Phone = document.getElementById("Phone").value;   
+      var Phone = document.getElementById("Phone").value;  
+      var Username = document.getElementById("Username").value;
+      var Password = document.getElementById("Password").value;
    
       var errorMessages1 =true;
       var errorMessages2 =true;
       var errorMessages3 =true;
       var errorMessages4 =true;
+      var errorMessages5 =true;
+      var errorMessages6 =true;
       
       if (FirstName == "" || FirstName==="null") {
          document.getElementById("errorMessages1").innerHTML = "Please enter your first name.";
@@ -66,6 +70,31 @@ function validateForm(){
         }
     }
     
+      if (Username == "" || Username==="null") {
+         document.getElementById("errorMessages5").innerHTML = "Please enter your username.";
+          } 
+         else {             
+        if(Username.length > 3) {
+          document.getElementById("errorMessages5").innerHTML = "The username cannot be greater than 3 characters. ";
+          } 
+        else {
+          document.getElementById("errorMessages5").innerHTML = "";
+          errorMessages5 = false;
+        }
+    }
+	
+      if (Password == "" || Password==="null") {
+         document.getElementById("errorMessages6").innerHTML = "Please enter your password.";
+          } 
+         else {             
+        if(Password.length > 3) {
+          document.getElementById("errorMessages6").innerHTML = "The password cannot be greater than 3 characters. ";
+          } 
+        else {
+          document.getElementById("errorMessages6").innerHTML = "";
+          errorMessages6 = false;
+        }
+    }
      if(errorMessages1  == true) {
        return false;
     } 
@@ -76,6 +105,12 @@ function validateForm(){
        return false;
     } 
      if(errorMessages4 == true) {
+       return false;
+    } 
+     if(errorMessages5 == true) {
+       return false;
+    } 
+     if(errorMessages6 == true) {
        return false;
     } 
   }
