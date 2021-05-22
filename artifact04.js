@@ -139,7 +139,7 @@ function validateForm(){
 	 }
 
      	
-        if Country==="USA" && Zipcode === "null" || Zipcode===""  {
+        if ((Country==="USA") && (Zipcode === "null" || Zipcode===""))  {
           document.getElementById("errorMessages11").innerHTML = "Please enter your zip code.";
           } 
         else {  
