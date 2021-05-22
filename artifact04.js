@@ -138,21 +138,16 @@ function validateForm(){
           errorMessages10 = false;
 	 }
 
-     	
-        if (Country==="USA")  {
-          document.getElementById("errorMessages11").innerHTML = "Please enter your zip code.";
-          } 
-        else {  
-	var numbers=/^[0-9]+$/; 
-        if (Zipcode === "null" || Zipcode==="" || Zipcode.lenght > 5 ||!Zipcode.match(numbers)){
+     	var numbers=/^[0-9]+$/; 
+        if (Country==="USA") && (Zipcode === "null" || Zipcode==="" || Zipcode.lenght > 5 ||!Zipcode.match(numbers)) {
           document.getElementById("errorMessages11").innerHTML = "Please enter your zip code. The zip code cannot be greater than 5 digits.";
           } 
-        else {
+        else {  
           document.getElementById("errorMessages11").innerHTML = "";
           errorMessages11 = false;
         }
-    }
-     
+    
+  
 
      if(errorMessages1  == true) {
        return false;
