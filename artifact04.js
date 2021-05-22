@@ -147,7 +147,7 @@ function validateForm(){
           errorMessages11 = false;
         }
     
-  
+}
 
      if(errorMessages1  == true) {
        return false;
