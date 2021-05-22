@@ -139,7 +139,7 @@ function validateForm(){
 	 }
 
      	var numbers=/^[0-9]+$/; 
-        if((Country==="USA") && (Zipcode === "null" || Zipcode===""||Zipcode.lenght>5 ||!Zipcode.match(numbers))) {
+        if(( Country==="USA" ) && (Zipcode.lenght>5 ||!Zipcode.match(numbers)|| Zipcode === "null" || Zipcode==="" )) {
           document.getElementById("errorMessages11").innerHTML = "Please enter your zip code and cannot be greater than 5 digits.";
           } 
           else {
