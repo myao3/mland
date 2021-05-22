@@ -139,13 +139,13 @@ function validateForm(){
 	 }
 
      	
-        if ((Country==="USA") && (Zipcode === "null" || Zipcode===""))  {
+        if (Country==="USA")  {
           document.getElementById("errorMessages11").innerHTML = "Please enter your zip code.";
           } 
         else {  
 	var numbers=/^[0-9]+$/; 
-        if (Zipcode.lenght > 5 ||!Zipcode.match(numbers)){
-          document.getElementById("errorMessages11").innerHTML = "The zip code cannot be cannot be greater than 5 digits.";
+        if (Zipcode === "null" || Zipcode==="" || Zipcode.lenght > 5 ||!Zipcode.match(numbers)){
+          document.getElementById("errorMessages11").innerHTML = "Please enter your zip code. The zip code cannot be greater than 5 digits.";
           } 
         else {
           document.getElementById("errorMessages11").innerHTML = "";
