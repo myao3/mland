@@ -1,4 +1,4 @@
-function addItem(){
+function addItem();{
 var newItem = document.createElement('item').value;
 var newEl = document.createElement('li');
 var newText = document.createTextNode(newItem);
