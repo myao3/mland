@@ -1,0 +1,14 @@
+body {
+    background: #ECECEC;
+    margin: auto;
+    padding: 50px;50px;50px;50px;
+    text-align: center;  
+    color:purple;
+  }
+
+button{
+    color: purple;
+    background-color: white;
+    border-radius:0.5em;
+    Font-Weight: bold;
+}
