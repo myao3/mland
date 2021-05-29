@@ -1,4 +1,4 @@
-var  mybutton = document.getElementById("clear");
+var  mybutton = document.getElementById("clean");
 
 //This section cleans the screen
 mybutton.addEventListener("click", function(event) {
@@ -12,8 +12,6 @@ for (index = element.length - 1; index >= 0; index--) {
 event.stopPropagation();
   });
 
-//var dotnumber1 = document.getElementById("dotnumber1");
-//dotnumber1.event1.stopPropagation(){};
 
 //This will add the event "Click" to the document (page). So anytime the user click, a new dot is going to be added.
 addEventListener("click", function(event) {
