@@ -41,7 +41,7 @@ li {
 	padding: 0.5em;
 }
 
-.column1, .column2, .column3, .column4, .column5,.column6, .column7, .column8, .column9, .column10 {
+.column1, .column2, .column3, .column4, .column5,.column6, .column7, .column8, .column9 {
         width: 18%;
 	float: left;
 	margin: 1%; 
@@ -88,6 +88,4 @@ img {
 .column9 {
         Background-color:#A9A9A9;       
         }
-.column10 {
-	Background-color:#F2CD87;  
-        }
+
