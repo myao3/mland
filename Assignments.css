@@ -34,17 +34,7 @@ body {
         color: white;
 	}
 
-.column1 {
-	width: 97%;
-	float: left;
-	margin: 1%; 
-        color: white;              
-        font-family: 'SztyletBold';
-        font-weight: bold;
-        font-style: normal;
-	font-size: 80%;
-        Background-color:#9B656F;
-}
+
 
 li {
 	display: inline;
@@ -84,21 +74,4 @@ img {
 	margin-right: 0%;
 	Background-color:#9B656F;
         }
-.column6{
-        Background-color:#AEA295;
-        }
-
-.column7{
-        Background-color:#9B656F;
-        }
-
-.column8 {
-        Background-color:#E8A465;
-        }
-.column9 {
-        Background-color:#F2CD87;            
-        }
-.column10 {
-	margin-right: 0%;
-	Background-color:#A9A9A9;
-        }
+         
