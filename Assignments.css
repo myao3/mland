@@ -4,7 +4,7 @@ body {
         background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
        	background-size:100%;
         font-family: Arial, Verdana, sans-serif;
-       	Color:#56514A
+       	Color:#56514A;
 	text-align: center;
      }
 
@@ -33,8 +33,6 @@ body {
 	padding: 0.5em 0;
         color: #686159;
 	}
-
-
 
 li {
 	display: inline;
