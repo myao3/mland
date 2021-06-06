@@ -22,10 +22,9 @@ color:red;
 
 
 .form-box {
-  width: 90%;
+  max-width: 500px;
   margin: auto;
   padding: 50px;
-  background: #ffffff;
   border: 10px solid #f2f2f2;
   font-weight: bold;
 }
@@ -35,7 +34,7 @@ p {
 }
 
 input, textarea {
-  width: 20%;
+  width: 40%;
 }   
 	
 #nav {
