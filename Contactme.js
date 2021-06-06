@@ -60,7 +60,7 @@ function validateForm(){
           } 
          else {             
          document.getElementById("errorMessages4").innerHTML = "";
-          errorMessages10 = false;
+          errorMessages4 = false;
 	 }
 
     
