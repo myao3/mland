@@ -4,7 +4,7 @@ body {
         background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
        	background-size:100%;
         font-family: Arial, Verdana, sans-serif;
-       	Color:#9B656F;
+       	Color:white;
 	text-align: center;
      }
 
@@ -50,23 +50,22 @@ img {
   
 }
 .column1{
-        Background-color:#AEA295;
+        Background-color:#8B8177;
         }
 
 .column2{
-        Background-color:#9B656F;
+        Background-color:#7C5058;
         }
 
 .column3 {
-        Background-color:#E8A465;
+        Background-color:#A27246;
         }
 .column4 {
-        Background-color:#F2CD87;
-        color: white;              
+        Background-color:#C1A46C;            
         }
 .column5 {
 	margin-right: 0%;
-	Background-color:#A9A9A9;
+	Background-color:#656565;
         }
 
 li {
