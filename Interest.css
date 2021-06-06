@@ -35,7 +35,7 @@ body {
 	}
 
 .column1 {
-	width: 97%;
+	width: 25%;
 	margin: 1%; 
         color: white;              
         font-family: 'SztyletBold';
@@ -43,6 +43,16 @@ body {
         font-style: normal;
 	font-size: 80%;
         Background-color:#9B656F;
+}
+.column2 {
+	width: 25%;
+	margin: 1%; 
+        color: white;              
+        font-family: 'SztyletBold';
+        font-weight: bold;
+        font-style: normal;
+	font-size: 80%;
+        Background-color:#b07604;
 }
 
 
