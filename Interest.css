@@ -60,6 +60,10 @@ iframe {
         font-style: normal;
 	font-size: 80%;
         Background-color:#b07604;
+	background-image: url("https://www.craftberrybush.com/wp-content/uploads/2020/04/howtopaintreflectioninwaterwithwatercolor-1-5.jpg");
+        background-size:contain;
+        background-position: right;
+        background-repeat:no-repeat;
 }
 
 
