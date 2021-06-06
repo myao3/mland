@@ -4,7 +4,7 @@ body {
         background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
        	background-size:100%;
         font-family: Arial, Verdana, sans-serif;
-       	Color:#D2D2CD;
+       	Color:white;
 	text-align: center;
      }
 
@@ -20,12 +20,12 @@ body {
 	padding: 0.5em 0;
 	font-family: Verdana;
 	font-weight: bold;
+	background-color:#363139;
 	}
 
 #content {
 	overflow: auto;
 	text-align: right;
-	Color:white;
      	font-family: 'SztyletBold';
      	font-weight: bold;
      	font-style: normal;
@@ -36,7 +36,7 @@ body {
 	margin: 1%;
         background-color:#363139;
 	padding: 0.5em 0;
-        color: grey;
+        color: white;
          }
 
  li {
@@ -44,7 +44,8 @@ body {
 	padding: 0.5em;
      }
 			
-.column1{                    
+.column1{       
+	width: 89%;
         font-family: 'SztyletBold';
         font-weight: bold;
         font-style: normal;
