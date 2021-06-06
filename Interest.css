@@ -48,6 +48,7 @@ iframe {
         font-style: normal;
 	font-size: 80%;
         Background-color:#9B656F;
+	padding:2%;
 }
 
 .column2 {
@@ -74,7 +75,7 @@ iframe {
         background-size:contain;
         background-position: center center;
         background-repeat:no-repeat;
-	text-align: left;
+	padding:2%;
 }
 li {
 	display: inline;
