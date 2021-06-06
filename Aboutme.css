@@ -13,13 +13,16 @@ body {
   font-weight: bold;
   font-style: normal;
   font-size: 200%;
+  color: white;
       }
 	   
 #nav {
+  background-color:#363139;
   margin: 1%;
   padding: 0.5em 0;
   font-family: Verdana;
   font-weight: bold;
+  color: white;
     }
 
 #content {
@@ -35,7 +38,7 @@ body {
   margin: 1%;
   background-color:#363139;
   padding: 0.5em 0;
-  color: grey;
+  color: white;
         }
 
 li {
