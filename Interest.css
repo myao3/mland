@@ -1,10 +1,10 @@
 body {
 	width: 90%;
-	margin: 0px 0px 0px 0px;
-        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
+	margin: 0 auto;
+        background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
        	background-size:100%;
         font-family: Arial, Verdana, sans-serif;
-       	Color:#9B656F;
+       	Color:white;
 	text-align: center;
      }
 
@@ -21,7 +21,7 @@ body {
 
 #nav {
         margin: 1%;
-        background-color:#E7E4CD;
+        background-color:#363139;
 	padding: 0.5em 0;
         font-family: Verdana;
         font-weight: bold;
@@ -29,13 +29,14 @@ body {
           
 #footer {
 	margin: 1%;
-        background-color:#E7E4CD;
+        background-color:#363139;
 	padding: 0.5em 0;
         color: white;
 	}
 
-.column1 {
-	width: 25%;
+.column1{
+        width: 30%;
+	float: left;
 	margin: 1%; 
         color: white;              
         font-family: 'SztyletBold';
@@ -44,8 +45,10 @@ body {
 	font-size: 80%;
         Background-color:#9B656F;
 }
+
 .column2 {
 	width: 25%;
+	float: left;
 	margin: 1%; 
         color: white;              
         font-family: 'SztyletBold';
