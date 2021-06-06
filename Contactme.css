@@ -1,10 +1,10 @@
 body {
   width: 90%;
   margin: 0 auto;
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Watercolor-Wallpaper-Desktop-620x372.jpg");
+  background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
   background-size:100%;
   font-family: Arial, Verdana, sans-serif;
-  Color:#D2D2CD;
+  Color:purple;
   text-align: center;
      }
 
@@ -39,7 +39,7 @@ input, textarea {
 	
 #nav {
   margin: 1%;
-  background-color:#E7E4CD;
+  background-color:#363139;
   padding: 0.5em 0;
   font-family: Verdana;
   font-weight: bold;
@@ -47,10 +47,10 @@ input, textarea {
 
           
 #footer {
-  background-color:#E3F2FD;
+  background-color:#363139;
   margin: 1%;
   padding: 0.5em 0;
-  color: grey;
+  color: white;
   
     }
 
@@ -59,6 +59,6 @@ li {
   padding: 0.5em;
 	}
 			
-a { color: black; } 
+a { color: white; } 
 
 	
