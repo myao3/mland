@@ -23,6 +23,11 @@ iframe {
         width: 98%;
   
 }
+
+img {
+        width: 100%;
+  
+}
 #nav {
         margin: 1%;
         background-color:#363139;
@@ -67,15 +72,10 @@ iframe {
 
 .column3 {
 	width: 20%;
-	height:189;
 	float: left;
 	margin: 1%; 
 	margin-right: 0%;
         Background-color:#323232;
-	background-image: url("https://www.craftberrybush.com/wp-content/uploads/2020/04/howtopaintreflectioninwaterwithwatercolor-1-5.jpg");
-        background-size:contain;
-        background-position: center center;
-        background-repeat:no-repeat;
 	padding:2%;
 }
 li {
