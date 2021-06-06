@@ -24,14 +24,12 @@ body {
 	}
 
 #content {
-	width: 89%;
 	overflow: auto;
      	font-family: 'SztyletBold';
      	font-weight: bold;
      	font-style: normal;
 	font-size: 120%; 
 	text-align: right;
-	padding: 0.5em 0;
         margin: 1%;
          }
 
