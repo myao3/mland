@@ -17,7 +17,7 @@ body {
 	   
 #nav {
         margin: 1%;
-        background-color: #B6AB9F;
+        background-color:#363139;
 	padding: 0.5em 0;
         font-family: Verdana;
         font-weight: bold;
@@ -29,7 +29,7 @@ body {
           
 #footer {
 	margin: 1%;
-        background-color:#B6AB9F;
+        background-color:#363139;
 	padding: 0.5em 0;
         color: #12110F;
 	}
@@ -87,4 +87,4 @@ img {
         Background-color:#A9A9A9;       
         }
 
-a { color: purple; } 
+a { color: white; } 
