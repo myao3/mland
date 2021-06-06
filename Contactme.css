@@ -4,7 +4,7 @@ body {
   background-image: url("https://myao3.github.io/mland/OIf0lp.jpg");
   background-size:100%;
   font-family: Arial, Verdana, sans-serif;
-  Color:purple;
+  Color:white;
   text-align: center;
      }
 
@@ -22,11 +22,12 @@ color:red;
 
 
 .form-box {
-  max-width: 400px;
+  max-width: 850px;
   margin: auto;
   padding: 50px;
   background: #ffffff;
   border: 10px solid #f2f2f2;
+  font-weight: bold;
 }
 
 p {
@@ -34,7 +35,7 @@ p {
 }
 
 input, textarea {
-  width: 90%;
+  width: 45%;
 }   
 	
 #nav {
