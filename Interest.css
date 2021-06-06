@@ -64,6 +64,7 @@ iframe {
         background-size:contain;
         background-position: right;
         background-repeat:no-repeat;
+	text-align: left;
 }
 
 
